@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration-line: none;
+}
+
+body{
+  overflow: hidden;
+}
+
+div{
+  margin-top: 10px;
+}
+
+ul{
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 20px 10px;
+  box-shadow: 0 3px 2px 5px lightcyan, 2px 3px 12px 5px lightgray;
+  border-radius: 10px;
+}
+li{
+  width: 100%;
+  text-align: center;
+}
+a{
+  padding: 5px 10px;
+  color: black;
+  font-size: 20px;
+  line-height: 35px;
+  transition: 0.4s;
+  border-radius: 13px;
+}
+
+a:hover {
+  color: aqua;
+  background: #000;
+}
